@@ -8,6 +8,7 @@ specifiers:
   '@typescript-eslint/eslint-plugin': ^5.10.1
   '@typescript-eslint/parser': ^5.10.1
   autoprefixer: ^10.4.2
+  dotenv: ^16.0.0
   eslint: ^7.32.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^3.2.1
@@ -27,6 +28,7 @@ specifiers:
 dependencies:
   '@firebase/app-compat': 0.1.17
   '@firebase/app-types': 0.7.0
+  dotenv: 16.0.0
   firebase: 9.6.6
   firebase-admin: 10.0.2_cd0089bfd3b701893725b6bd3f9645ad
 
@@ -1442,6 +1444,11 @@ packages:
       is-obj: 2.0.0
     dev: false
     optional: true
+
+  /dotenv/16.0.0:
+    resolution: {integrity: sha512-qD9WU0MPM4SWLPJy/r2Be+2WgQj8plChsyrCNQzW/0WjvcJQiKQJ9mH3ZgB3fxbUUxgc/11ZJ0Fi5KiimWGz2Q==}
+    engines: {node: '>=12'}
+    dev: false
 
   /duplexify/4.1.2:
     resolution: {integrity: sha512-fz3OjcNCHmRP12MJoZMPglx8m4rrFP8rovnk4vT8Fs+aonZoCwGg10dSsQsfP/E62eZcPTMSMP6686fu9Qlqtw==}
